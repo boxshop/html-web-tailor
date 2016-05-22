@@ -1,9 +1,80 @@
-/* General */
+/*--- General */
 body {
-  
+  font-size: 14px;
+  color: #333333;
 }
 
-/* Color */
+a {
+  color: #372728;
+}
+
+a:hover {
+  color: #8a5d60;
+  text-decoration: none;
+}
+
+/*-- Override */
+.list-inline {
+  margin-bottom: 0;
+}
+
+/*-- Color */
 .bg-white {
   background-color: #ffffff;
+}
+
+/*--- Layout */
+/*-- Header */
+#page-header {
+  box-shadow: #EEEEEE 0px 1px 2px;
+}
+
+#menu-contact {
+  background-color: #EEEEEE;
+  font-size: 12px;
+}
+
+#menu-contact .list-inline {
+  margin: 6px 0;
+}
+
+/*-- Menu */
+#menu-main {
+  height: 60px;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+#menu-main .com-logo {
+  padding: 6px 0;
+}
+
+#menu-main .com-logo img {
+  max-height: 48px;
+}
+
+#menu-main .com-menu {
+  font-size: 18px;
+}
+
+#menu-main .com-menu li {
+  float: right;
+  padding: 0;
+}
+
+#menu-main .com-menu a {
+  display: inline-block;
+  line-height: 24px;
+  padding: 18px;
+}
+
+#menu-main .com-menu a:hover,
+#menu-main .com-menu .active a {
+  background-color: #372728;
+  color: #FFFFFF;
+}
+
+/*-- Slider */
+#slider-home {
+  height: 480px;
+  background: #cbc4bc url(../images/slide_1_image.jpg) no-repeat right top;
 }
