@@ -1,2 +1,3 @@
-# html-web-tailor
-HTML Template for Tailor Boutique
+### HTML Template
+* HTML Template for Tailor Boutique
+* Base on [Bootstrap 3.3.6](http://getbootstrap.com/)
