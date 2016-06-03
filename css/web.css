@@ -6,6 +6,7 @@ body {
 
 a {
   color: #372728;
+  transition: color .5s, background-color .5s;
 }
 
 a:hover {
