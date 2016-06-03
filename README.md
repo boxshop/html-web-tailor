@@ -3,7 +3,9 @@
 * Take notes training content after 24h
 
 ### Notes:
+* Inspired from [MICRA Theme](http://bluemicra.myshopify.com/)
 * [Adding your SSH key to the ssh-agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
+* [Slick 1.6.0](https://github.com/kenwheeler/slick)
 
 ### HTML Template
 * HTML Template for Tailor Boutique
