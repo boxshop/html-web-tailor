@@ -43,13 +43,22 @@ a:hover {
 #menu-main {
   height: 60px;
   border-bottom: 1px solid #EEEEEE;
+  overflow: hidden;
 }
 
-#menu-main .com-logo {
+#menu-main .navbar-brand {
+  height: auto;
+  padding: 0;
+  line-height: auto;
+}
+
+#menu-main .com-logo,
+#menu-main .navbar-brand {
   padding: 6px 0;
 }
 
-#menu-main .com-logo img {
+#menu-main .com-logo img,
+#menu-main .navbar-brand img {
   max-height: 48px;
 }
 
@@ -75,10 +84,16 @@ a:hover {
 }
 
 /*-- Slider */
-#slider-home > div {
+#slider-home {
   
 }
 
-.slider-slick div {
+.sslick .slider-slick-item {
   outline: none;
+  display: none;
+}
+
+.sslick > .slider-slick-item:first-child,
+.slick-slider .slider-slick-item {
+  display: block;
 }

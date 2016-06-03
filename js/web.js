@@ -1,8 +1,9 @@
 $(document).ready(function() {
 
   // Slider
-  $(".slider-slick").slick({
+  $('.sslick').slick({
     dots: true,
+    arrows: false,
     speed: 1000
   });
 
