@@ -97,3 +97,51 @@ a:hover {
 .slick-slider .slider-slick-item {
   display: block;
 }
+
+/*-- Highlights */
+#com-highlight {
+
+}
+
+.com-highlight-item {
+  display: block;
+  position: relative;
+  height: 300px;
+  
+}
+
+.com-highlight-item h3 {
+  margin-top: 0;
+}
+
+.com-highlight-item .com-highlight-item-inner {
+  position: absolute;  
+  transition: color .5s, padding .4s;
+}
+
+.com-highlight-item:hover .com-highlight-item-inner {
+  padding: 0 12px;
+}
+
+.com-highlight-item .com-highlight-item-inner.top-left {
+  top: 24px;
+  left: 24px;
+}
+
+.com-highlight-item .com-highlight-item-inner.bottom-left,
+.com-highlight-item .com-highlight-item-inner.bottom-right {
+  bottom: 24px;
+}
+
+.com-highlight-item .com-highlight-item-inner.bottom-left {
+  left: 24px; 
+}
+
+.com-highlight-item .com-highlight-item-inner.bottom-right {
+  text-align: right;
+  right: 24px; 
+}
+
+.com-highlight-item .text-inverse {
+  color: #FFFFFF;
+}

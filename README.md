@@ -1,3 +1,8 @@
+### 20160612
+* How to use `CSS Position` (relative vs absolute)
+* Simple jquery to update element stylesheet 
+* Introduce [JQuery Backstretch](https://github.com/srobbin/jquery-backstretch)
+
 ### Hacknite #2 (20160603)
 * Find new HTML template for testing
 * Take notes training content after 24h
