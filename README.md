@@ -1,3 +1,7 @@
+### 20160615
+* Slider with multipule items: equalize margin
+* Product card display
+
 ### 20160612
 * How to use `CSS Position` (relative vs absolute)
 * Simple jquery to update element stylesheet 

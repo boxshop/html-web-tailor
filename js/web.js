@@ -1,10 +1,28 @@
 $(document).ready(function() {
 
   // Slider
-  $('.sslick').slick({
+  $('#slider-home').slick({
     dots: true,
     arrows: false,
     speed: 1000
+  });
+
+  $('#slider-product').slick({
+    slidesToShow: 4,
+    arrows: false,
+    responsive: [{
+      breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          infinite: true
+        }
+      }, {
+      breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          dots: true
+        }
+    }]
   });
 
   // Set background

@@ -6,12 +6,14 @@ body {
 
 a {
   color: #372728;
+  text-decoration: none;
   transition: color .5s, background-color .5s;
 }
 
 a:hover {
-  color: #8a5d60;
+  color: #8a5d60;  
   text-decoration: none;
+  cursor: pointer;
 }
 
 /*-- Override */
@@ -22,6 +24,12 @@ a:hover {
 /*-- Color */
 .bg-white {
   background-color: #ffffff;
+}
+
+/*-- Text */
+.text-title {
+  font-size: 18px;
+  margin-bottom: 2px;
 }
 
 /*--- Layout */
@@ -98,9 +106,26 @@ a:hover {
   display: block;
 }
 
+.sslick-items {
+  margin-left: -12px;
+  margin-right: -12px; 
+}
+
+.sslick-items .slider-slick-item {
+  margin: 12px;  
+}
+
+.slick-track > .slick-active:first-child {
+  padding-left: 0;
+}
+
+.slick-track > .slick-active:last-child {
+  padding-right: 0;
+}
+
 /*-- Highlights */
 #com-highlight {
-
+  margin-bottom: 24px;
 }
 
 .com-highlight-item {
@@ -111,6 +136,7 @@ a:hover {
 }
 
 .com-highlight-item h3 {
+  font-weight: bold;
   margin-top: 0;
 }
 
@@ -144,4 +170,96 @@ a:hover {
 
 .com-highlight-item .text-inverse {
   color: #FFFFFF;
+}
+
+/*-- Product display */
+.com-product {    
+  position: relative;
+  text-align: center;  
+}
+
+.com-product > a {
+  display: block;
+}
+
+.com-product .com-product-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.com-product .com-product-image img {
+  transition: transform .5s ease-in-out;
+}
+
+.com-product:hover .com-product-image img {
+  transform: scale(1.1);
+}
+
+.com-product .com-product-image .icon {
+  max-height: 32px;
+}
+
+.com-product .com-product-image .icon-2x {
+  max-height: 64px;
+}
+
+.com-product .com-product-image .top-right,
+.com-product .com-product-image .bottom-right {
+  position: absolute;
+  right: 12px;
+}
+
+.com-product .com-product-image .top-right {
+  top: 12px;
+}
+
+.com-product .com-product-image .bottom-right {
+  bottom: 12px;
+}
+
+.com-product .img-responsive {
+  border: 1px solid #EAEAEA;
+}
+
+.com-product .text-title {
+  color: #333333;
+}
+
+.com-product small {
+  color: #999999;
+  text-decoration: line-through;
+}
+
+.com-product .com-product-actions {
+  position: absolute;
+  visibility: hidden;
+  top: 50%;
+  width: 100%; 
+  padding: 12px 6px;
+  background-color: rgba(255, 255, 255, .9);
+  opacity: 0;
+  transition: opacity 1s, top .5s;
+}
+
+.com-product:hover .com-product-image {
+}
+
+.com-product:hover .com-product-actions {
+  visibility: visible;
+  opacity: 1;
+  top: 40%;
+}
+
+.com-product .com-product-actions .glyphicon {
+  font-size: 24px;
+  padding: 12px;
+  margin-bottom: 4px;
+  border: 1px solid #372728;
+  color: #372728;
+  background-color: #FFFFFF;
+}
+
+.com-product .com-product-actions .glyphicon:hover {
+  color: #FFFFFF;
+  background-color: #372728;
 }
