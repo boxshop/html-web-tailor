@@ -1,3 +1,8 @@
+### 20160619
+* [Easing](http://easings.net/)
+* Move `scale effect` to new class
+* Complete home page
+
 ### 20160615
 * Slider with multipule items: equalize margin
 * Product card display

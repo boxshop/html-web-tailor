@@ -21,6 +21,14 @@ a:hover {
   margin-bottom: 0;
 }
 
+.slick-dotted.slick-slider {
+  margin-bottom: 0;
+}
+
+.slick-dots {
+  bottom: 12px;
+}
+
 /*-- Color */
 .bg-white {
   background-color: #ffffff;
@@ -30,6 +38,21 @@ a:hover {
 .text-title {
   font-size: 18px;
   margin-bottom: 2px;
+}
+
+.text-big-wrapper {
+  background-color: #EAEAEA;
+  padding: 24px;
+  margin: 24px 0;
+}
+
+.text-big {
+  font-size: 140%;
+}
+
+.text-big .glyphicon {
+  font-size: 200%;
+  color: #999999;
 }
 
 /*--- Layout */
@@ -91,6 +114,20 @@ a:hover {
   color: #FFFFFF;
 }
 
+/*---- Main */
+#main section {
+  margin-bottom: 24px;
+}
+
+#main section h3:first-child {
+    
+}
+
+#main section h3.border:first-child {
+  padding-bottom: 6px;
+  border-bottom: 1px solid #EAEAEA;
+}
+
 /*-- Slider */
 #slider-home {
   
@@ -124,51 +161,52 @@ a:hover {
 }
 
 /*-- Highlights */
-#com-highlight {
-  margin-bottom: 24px;
+#com-highlight .com-bg-item {
+  height: 300px;
 }
 
-.com-highlight-item {
+.com-bg-item {
   display: block;
   position: relative;
-  height: 300px;
-  
+  min-height: 120px;
 }
 
-.com-highlight-item h3 {
+.com-bg-item h3,
+.com-bg-item h4 {
   font-weight: bold;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
-.com-highlight-item .com-highlight-item-inner {
+.com-bg-item .com-bg-item-inner {
   position: absolute;  
   transition: color .5s, padding .4s;
 }
 
-.com-highlight-item:hover .com-highlight-item-inner {
+.com-bg-item:hover .com-bg-item-inner {
   padding: 0 12px;
 }
 
-.com-highlight-item .com-highlight-item-inner.top-left {
+.com-bg-item .com-bg-item-inner.top-left {
   top: 24px;
   left: 24px;
 }
 
-.com-highlight-item .com-highlight-item-inner.bottom-left,
-.com-highlight-item .com-highlight-item-inner.bottom-right {
+.com-bg-item .com-bg-item-inner.bottom-left,
+.com-bg-item .com-bg-item-inner.bottom-right {
   bottom: 24px;
 }
 
-.com-highlight-item .com-highlight-item-inner.bottom-left {
+.com-bg-item .com-bg-item-inner.bottom-left {
   left: 24px; 
 }
 
-.com-highlight-item .com-highlight-item-inner.bottom-right {
+.com-bg-item .com-bg-item-inner.bottom-right {
   text-align: right;
   right: 24px; 
 }
 
-.com-highlight-item .text-inverse {
+.com-bg-item .text-inverse {
   color: #FFFFFF;
 }
 
@@ -263,3 +301,13 @@ a:hover {
   color: #FFFFFF;
   background-color: #372728;
 }
+
+/*-- Article */
+.com-article {
+}
+
+.com-article small {
+  color: #C5C5C5;
+}
+
+/*-- Services */
